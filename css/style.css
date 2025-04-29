@@ -1,0 +1,78 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+.header {
+    height: 80vh;
+}
+
+.menu-wrapper {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.4);
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    margin: 0 15px;
+    line-height: 3em;
+}
+
+
+/*Mon h1*/
+
+h1 {
+    font-size: 2.5em;
+    margin: 7em 6em;
+    padding: 0;
+    color: #333;
+    font-family: lavinia, sans-serif;
+}
+.main-txt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-txt a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    margin: 0 15px;
+    line-height: 3em;
+}
+
+.main-txt a img {
+    height: 35%;
+    width: 35%;
+}
+
+/*Realisation*/
+.realisation {
+    height: 100vh;
+    background-image: url("../img/couple.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
