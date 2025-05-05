@@ -172,11 +172,81 @@ h1 span {
     transform: scale(1.1);
 }
 
+/*prestations*/
+.prestations {
+    height: 90vh;
+    background-color: #ff85e9;
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 20px;
+}
+
+.prest-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.prest-wrapper h2 {
+    text-align: center;
+    font-size: 3em;
+    padding: 1em 0 0.8em 0;
+    font-family: birds, sans-serif;
+}
+
+.carte-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 0 10%;
+}
+
+.carte {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 30%;
+    background-color: white;
+    border-radius: 4px;
+    padding: 20px;
+    height: 50vh;
+}
+
+.carte-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.carte-body p {
+    margin: 0 25px;
+    text-align: center;
+}
+
+.carte-body h4 {
+    font-size: 1.7em;
+    margin: 0;
+}
+
+.carte h3 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+
+
 /*footer*/
 
 .footer {
     height: 20vh;
-    background-color: #ff85e9;
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
 }
 .footer-wrapper {
     height: 100%;
@@ -184,6 +254,7 @@ h1 span {
     justify-content: center;
     align-items: center;
     gap: 100px;
+    box-sizing: border-box;
 }
 
 .footer-wrapper a {

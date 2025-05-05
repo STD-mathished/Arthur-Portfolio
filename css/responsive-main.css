@@ -4,8 +4,126 @@
     }
     
     .menu {
-        gap: 16px;
+        gap: 50px;
     }
 
+    h1 {
+        margin: 6em 5em;
+    }
+    
+}
+
+
+@media screen and (max-width: 850px) {
+    body {
+        font-size: 13px;
+    }
+    
+    .menu {
+        gap: 40px;
+    }
+
+    h1 {
+        margin: 5em 4em;
+    }
+    
+
+    
+}
+
+@media screen and (max-width: 710px) {
+    
+    .menu {
+        gap: 20px;
+    }
+
+    h1 {
+        margin: 5em 4em;
+    }
+    
+
+    
+}
+
+@media screen and (max-width: 610px) {
+    
+    .menu {
+        gap:0px;
+    }
+
+    h1 {
+        margin: 5em 4em;
+    }
+    
+
+    .real-wrapper {
+        gap: 10px;
+        height: 40vh;
+        width: 70vw; /* Ajustement de la largeur pour les petits écrans */
+    
+    }
+
+    .footer-wrapper {
+        padding: 0 10em;
+    }
+
+    
+
+    
+}
+
+@media screen and (max-width: 500px) {
+    
+    .menu {
+        gap:0px;
+        flex-direction: column;
+    }
+
+    .menu a {
+        border-bottom: 1px solid black;
+        width: 100%;
+        text-align: center;
+        font-size: 0.7em;
+    
+    }
+
+    h1 {
+        margin: 3em 2em;
+    }
+    
+
+    .real-wrapper {
+        gap: 0px;
+        font-size: 0.8em;
+
+        
+    }
+
+    .footer-wrapper {
+        padding: 0 10em;
+    }
+
+
+    
+}
+
+@media screen and (max-width: 430px) {
+
+
+    .footer-wrapper {
+        padding: 0 20px; /* Ajout de padding pour éviter le collage sur les bords */
+        font-size: 0.8em;
+        gap: 15px; /* Espacement légèrement augmenté */
+        flex-direction: column;
+    }
+
+    .real-wrapper {
+        gap: 0px;
+        
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
     
 }
