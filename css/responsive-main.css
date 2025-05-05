@@ -1,0 +1,11 @@
+@media screen and (max-width: 1040px) {
+    body {
+        font-size: 14px;
+    }
+    
+    .menu {
+        gap: 16px;
+    }
+
+    
+}

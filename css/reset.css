@@ -48,6 +48,11 @@ table {
 }
 
 @font-face {
-	font-family: lavinia;
-	src: url("../fonts/Lavinia.otf");
+	font-family: liter;
+	src: url("../fonts/Liter-Regular.ttf");
+}
+
+@font-face {
+	font-family: birds ;
+	src: url("../fonts/Birds-of-Paradise.ttf");
 }
