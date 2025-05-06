@@ -26,7 +26,19 @@
     h1 {
         margin: 5em 4em;
     }
-    
+
+    .carte {
+        font-size: 0.9em;
+    }
+
+    .carte-body {
+        gap: 10px;
+    }
+
+    .carte-body h4 {
+        font-size: 1.2em;
+    }
+
 
     
 }

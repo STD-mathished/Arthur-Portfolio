@@ -142,6 +142,26 @@ h1 span {
     margin: 25vh 0;
 }
 
+.down-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+}
+
+.down-btn img {
+    width: 5%;
+    height: 5%;
+    border: 1px solid black;
+    border-radius: 5%;
+    margin: 20px 70px 0 0 ;
+}
+
 /*Gallery*/
 .gallery {
     display: flex;
@@ -212,7 +232,13 @@ h1 span {
     border-radius: 4px;
     padding: 20px;
     height: 50vh;
+    
 }
+
+.carte :hover {
+    transform: scale(1.05);
+}
+
 
 .carte-body {
     display: flex;
@@ -237,6 +263,76 @@ h1 span {
     font-size: 1.5em;
     margin: 0;
 }
+.mariage {
+    border: 1px solid rgb(156, 51, 164);
+}
+
+.anniv {
+    border: 1px solid rgb(255, 24, 224);
+}
+
+.perso {
+    border: 1px solid rgb(156, 51, 164);
+}
+
+/*A propos*/
+.about {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+.abt-rgt {
+    background-color: pink;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.abt-lft {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.abt-p {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.abt-p p{
+    margin: 0 200px;
+    font-size: 1.1em;
+}
+.abt-p span {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ff85e9;
+}
+
+.abt-p b {
+    font-weight: bold;
+
+}
+
+.abt-lft h2 {
+    font-size: 3em;
+    padding: 1em 0 0.8em 0;
+    font-family: birds, sans-serif;
+    text-align: center;
+}
+
+.abt-rgt img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
 
 
 
@@ -256,6 +352,10 @@ h1 span {
     gap: 100px;
     box-sizing: border-box;
 }
+
+
+
+
 
 .footer-wrapper a {
     text-decoration: none;
